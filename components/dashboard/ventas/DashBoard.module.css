@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 1rem;
+  }
+  
+  .sidebarButton {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+  
+  .createButton {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 1rem;
+  }

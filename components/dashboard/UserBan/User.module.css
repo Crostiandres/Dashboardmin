@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .userInfo {
+    margin-left: 0.5rem;
+  }
+  
+  .userName {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .userEmail {
+    font-size: 1.2rem;
+  }
+  
+  .userButton {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .userButton:hover {
+    background-color: #d32f2f;
+  }

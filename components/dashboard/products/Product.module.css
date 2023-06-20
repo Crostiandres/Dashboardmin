@@ -1,0 +1,32 @@
+.product-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-details {
+    display: flex;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .product-details h2 {
+    margin: 0;
+  }
+  
+  .product-details button {
+    max-width: 50px;
+    max-height: 30px;
+  }
+  
+  .product-details button:hover {
+    cursor: pointer;
+  }
+  
+  .product-edit-button {
+    margin-left: auto;
+  }
