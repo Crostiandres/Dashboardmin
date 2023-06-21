@@ -7,8 +7,9 @@ import { UserBan } from "./UserBan/userBan";
 import { useAuth0 } from "@auth0/auth0-react";
 import styles from "./ventas/DashBoard.module.css"
 
+
 export const Dashboard = () => {
-  // const user = "administrado123@gmail.com";
+  //const user = "administrado123@gmail.com";
   const [usuario, setUsuario] = useState({});
   const [product, setProducts] = useState(true);
   const [ventas, setVentas] = useState(false);
@@ -27,7 +28,7 @@ export const Dashboard = () => {
     }
   }, []);
 
-  if (usuario.admin) {
+  if (usuario) {
     return (
       <div className={styles.container}>
         <div className={styles.sidebar}>

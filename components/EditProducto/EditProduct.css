@@ -1,12 +1,33 @@
-.container{
+/*.container{
     display: flex;
     flex-direction: column;
     margin:100px;
     position:relative;
     justify-content:center;
-}
+}*/
 
 .card{
-    display: flex;
-    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+	height: 100%;
+	width: auto;
+	margin: 50px auto;
+	max-width: 600px;
+}
+.container {
+    text-align: center;
+    font-weight: 500;
+    font-family: cursive;
+    color: black;
+}
+
+.container label{
+    font-family: cursive;
+    color: black;
+}
+.container img {
+    position: initial;
+    border-radius: 50px;
+    
+
 }

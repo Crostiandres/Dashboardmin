@@ -112,8 +112,8 @@ function ProductoEditar() {
     <div className="container">
       <ProductEdit
         product={product}
-        data="name"
-        type="text"
+        data="Name"
+        type="Text"
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
       />
@@ -126,7 +126,7 @@ function ProductoEditar() {
       />
       <ProductEdit
         product={product}
-        data="alcoholContent"
+        data="AlcoholContent"
         type="number"
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
@@ -143,7 +143,7 @@ function ProductoEditar() {
       />
       <TypeEdit
         product={product}
-        data="brand"
+        data="Brand"
         type={marcas}
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
@@ -153,16 +153,16 @@ function ProductoEditar() {
       />
       <ProductEdit
         product={product}
-        data="amount"
-        type="number"
+        data="Amount"
+        type="Number"
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
       />
       {product.type === "Wine" ? (
         <ProductEdit
           product={product}
-          data="cask"
-          type="number"
+          data="Cask"
+          type="Number"
           PutProduct={putProduct}
           setPutProduct={setPutProduct}
         />
@@ -170,15 +170,15 @@ function ProductoEditar() {
 
       <ProductEdit
         product={product}
-        data="price"
-        type="number"
+        data="Price"
+        type="Number"
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
       />
       <ProductEdit
         product={product}
-        data="stock"
-        type="number"
+        data="Stock"
+        type="Number"
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
       />
@@ -190,8 +190,8 @@ function ProductoEditar() {
       {descuento ? (
         <ProductEdit
           product={product}
-          data="percentageDiscount"
-          type="number"
+          data="PercentageDiscount"
+          type="Number"
           PutProduct={putProduct}
           setPutProduct={setPutProduct}
         />
@@ -199,7 +199,7 @@ function ProductoEditar() {
 
       <TypeEdit
         product={product}
-        data="container"
+        data="Container"
         type={contenedor}
         PutProduct={putProduct}
         setPutProduct={setPutProduct}
@@ -209,8 +209,8 @@ function ProductoEditar() {
       />
 
       <select onChange={handleAvailability}>
-        <option value={false}>Sin habilitado</option>
-        <option value={true}>habilitado</option>
+        <option value={false}>Inhabilitado</option>
+        <option value={true}>Habilitado</option>
       </select>
       <h3>ventas:{product.sells}</h3>
       <ProductEdit

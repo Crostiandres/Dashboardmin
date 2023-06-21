@@ -22,6 +22,7 @@ export const Products = () => {
 
 
   return (
+      
     <div className={styles.container}>
       {products.length ? (
         <div className={styles.productList}>
